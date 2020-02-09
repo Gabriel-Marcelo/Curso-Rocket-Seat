@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+
+
+        <script>
+            
+           
+           function temHabilidade(skills){
+               for(var i = 0; i < skills.length; i++){
+                   if(skills[i] == "javascript"){
+                       return true;
+                   }
+                   else return false;
+               }
+           }
+
+           var skills = ["ReactJS", "React Native"];
+           console.log(temHabilidade(skills));
+            
+        </script>
+    </body>
+</html>    
